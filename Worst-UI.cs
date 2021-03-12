@@ -1,4 +1,4 @@
-﻿//Made by AnonimKisi
+//Made by AnonimKisi
 
 using System;
 using System.Windows.Forms;
@@ -6,17 +6,18 @@ using System.Threading;
 
 namespace Worst_UI
 {
-    public partial class Form1 : Form
+    public partial class Worst_UI : Form
     {
         int length = 1;
 
         public char RandomName(char letter)
         {
-            label1.Text = " ";
-            Random random = new Random();
-            int random_number = random.Next(1,27);
             char[] chars = new char[length];
             int i = 0;
+            label1.Text = " ";
+            Random random = new Random();
+            GodIamSuchAFuckingIdiot:
+            int random_number = random.Next(1,27);                    
             foreach (char letters in chars)
             {
                 while (i < length)
@@ -28,165 +29,139 @@ namespace Worst_UI
                             letter = 'a';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 2:
                             letter = 'b';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 3:
                             letter = 'c';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 4:
                             letter = 'd';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 5:
                             letter = 'e';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 6:
                             letter = 'f';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 7:
                             letter = 'g';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 8:
                             letter = 'h';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 9:
                             letter = 'i';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 10:
                             letter = 'j';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 11:
                             letter = 'k';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 12:
                             letter = 'l';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 13:
                             letter = 'm';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 14:
                             letter = 'n';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 15:
                             letter = 'o';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 16:
                             letter = 'p';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 17:
                             letter = 'q';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 18:
                             letter = 'r';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 19:
                             letter = 's';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 20:
                             letter = 't';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 21:
                             letter = 'u';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 22:
                             letter = 'v';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 23:
                             letter = 'w';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 24:
                             letter = 'x';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 25:
                             letter = 'y';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                         case 26:
                             letter = 'z';
                             label1.Text = label1.Text + letter;
                             Thread.Sleep(20);
-                            random_number = random.Next(1, 9);
-                            break;
+                            goto GodIamSuchAFuckingIdiot;
                     }                
                 }
             }
             return letter;
         }
 
-        public Form1()
+        public Worst_UI()
         {
             InitializeComponent();
         }
