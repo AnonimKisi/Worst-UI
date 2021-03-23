@@ -16,17 +16,17 @@ namespace Worst_UI
             int i = 0;
             label1.Text = " ";
             Random random = new Random();
-            GodIamSuchAFuckingIdiot:
+            Goto_Point:
             int random_number = random.Next(1,27);                    
             foreach (char letters in chars)
             {
                 while (i < length)
                 {
                     i++;                
-                    letter = (char)random_number;
+                    letter = (char)(random_number + 96);
                     label1.Text = label1.Text + letter;
                     Thread.Sleep(20);
-                    goto GodIamSuchAFuckingIdiot;
+                    goto Goto_Point;
                 }
             }
             return letter;
